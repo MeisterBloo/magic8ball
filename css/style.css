@@ -1,0 +1,74 @@
+.page {
+    max-width: 960px;
+    min-width: 300px;
+    margin: 0 auto;
+  }
+  
+
+  html {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+  
+  header {
+    text-align: center;
+  }
+  header span {
+    font-size: 80px;
+    font-size: 2em;
+    color: #f16059;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Berkshire Swash', cursive;
+    color: rgb(250, 247, 246);
+    text-shadow: 3px 3px 3px #030200, 6px 6px 6px #020200;
+
+  }
+  
+  .ball {
+  position: relative;
+  }
+  .ball img{
+    width: 100%;
+    max-width: 30%;
+  }
+  .answer {
+    color: rgb(252, 250, 250);
+    text-shadow: 1px 1px 2px rgb(7, 1, 1), -1px -1px 1px rgb(7, 1, 1);
+    text-transform: uppercase;
+    font-family: 'Tangerine', cursive;
+    margin: 0;
+    position: absolute;
+    top: 5%;
+    left: 68%;
+    width: 35%;
+    font-size: 25px;
+  }
+  
+  #questionButton {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-size: 1.875em;
+    color: #f8f8f8;
+    background-color: #fa180c;
+    border-radius: 50%;
+    border: none;
+    padding: .5em 1em;
+    width: 20%;
+    max-width: 15em;
+    margin-bottom: 1em;
+  }
+  
+
+#curtains {
+    max-width: 100%;
+    position: absolute;
+    left: 0%;
+    top: -5%;
+    z-index: -1;
+}
